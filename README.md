@@ -4,10 +4,24 @@
 [![Last Updated](https://img.shields.io/github/last-commit/jhmartins1/api-grau-de-risco.svg)](https://github.com/jhmartins1/api-grau-de-risco/commits/main)
 [![Contributors](https://img.shields.io/github/contributors/jhmartins1/api-grau-de-risco.svg)](https://github.com/jhmartins1/api-grau-de-risco/graphs/contributors)
 
-### Documentação:
-- Faça um clone do projeto com git clone
-- execute um "npm install" para instalar as dependencias
-- inicie a api utilizando "node index.js"
+## Instalação
+1. Faça um clone do projeto com
+
+  ```sh-session
+    git clone git@github.com:jhmartins1/api-grau-de-risco.git
+  ```
+   
+3. Execute o comando a seguir para instalar as dependencias do projeto
+
+  ```sh-session
+    npm install
+  ```
+
+3. Execute o comando a seguir para iniciar o projeto
+
+  ```sh-session
+    node index.js
+  ```
 
 ### API
 - metodo GET inserindo o codigo do cnae
