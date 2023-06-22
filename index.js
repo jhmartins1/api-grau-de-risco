@@ -1,7 +1,10 @@
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
+const cors = require("cors");
+
 const app = express();
+app.use(cors());
 
 // Define uma rota para o endpoint GET
 app.get("/cnae/:cod", async (req, res) => {
@@ -18,7 +21,7 @@ app.get("/cnae/:cod", async (req, res) => {
 
     // objeto com os dados capturados
     const data = {
-      valor: $("td[title='Grau de Risco da CNAE.']").text().trim(),
+      risco: $("td[title='Grau de Risco da CNAE.']").text().trim(),
     };
 
     // Retorne os dados capturados
