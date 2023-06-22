@@ -23,7 +23,7 @@
     node index.js
   ```
 
-### API
+## API
 - metodo GET inserindo o codigo do cnae
 - https://api-grau-de-risco.onrender.com/cnae/{codigocnae}
 
