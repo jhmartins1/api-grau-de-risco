@@ -27,5 +27,3 @@
 - metodo GET inserindo o codigo do cnae
 - https://api-grau-de-risco.onrender.com/cnae/{codigocnae}
 
-
-Marque esse projeto com uma estrela 🌟
